@@ -60,11 +60,11 @@
     let fontSize = 20; // Starting font size in pixels
     const imagePaths = [
       "./images/image1.gif",
-      "./images/image2.gif",
-      "./images/image3.gif",
-      "./images/image4.gif",
-      "./images/image5.gif",
-      "./images/image6.gif",
+      "./images/image2.jpg",
+      "./images/image3.jpeg",
+      "./images/image4.jpeg",
+      "./images/image5.jpg",
+      "./images/image6.jpeg",
       "./images/image7.gif"
     ];
   
@@ -79,7 +79,7 @@
         yesButton.style.width = `${buttonWidth}px`;
         yesButton.style.fontSize = `${fontSize}px`; // Update font size
         if (noClickCount < 6) {
-          noButton.textContent = ["No", "Are you sure?", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry..."][noClickCount];
+          noButton.textContent = ["No", "Are you sure?", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry...", "THIS ISN'T A REAL OPTION!!"][noClickCount];
         }
       }
     });
